@@ -1,0 +1,34 @@
+header{
+  background-color: grey;
+  color:black;
+  text-align: center;
+  margin:1%;
+  padding: 2%;
+  font-size: 25px;
+  font-weight: 400;
+  border:2px;
+  solid:green;
+  box-shadow: 10px 10px black;
+
+}
+ a img{
+  height:10%;
+  width:10%;
+  display: block;
+  margin: 7% 7% 0 auto;
+}
+.child img{
+  margin:5%;
+  width:180px;
+  height:180px;
+}
+.child{
+  text-align: center;
+  border: 3px solid black;
+  width:30%;
+
+}
+.parent{
+  display:flex;
+  margin:3%;
+}

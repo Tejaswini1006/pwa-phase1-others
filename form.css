@@ -1,0 +1,45 @@
+body{
+  background-color: #33ccff;
+  justify-content:space-around;
+  text-align: center;
+}
+.parent{
+display: flex;
+margin: 2%;
+padding:1%;
+width:95%;
+}
+.child{
+  text-align: center;
+  background-color:  #cc66ff;
+  display: flex;
+  margin: 3%;
+  width: 50%;
+  border: 2px solid black;
+  }
+select ,input {
+  width: 90%;
+  margin: 2%;
+}
+section{
+  width: 100%;
+}
+#career{
+  width:95%;
+  margin:1%;
+  padding:1%;
+  border:2px;
+  solid:red;
+border: 2px solid black;
+}
+button{
+  align:center;
+  width: 100%;
+  background: #ff5050
+  color:#ddd;
+  margin:1%;
+  padding:1%;
+  font-size: 30px;
+  font-weight: bold;
+
+}

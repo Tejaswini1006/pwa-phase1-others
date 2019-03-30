@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <link rel="stylesheet" href="form.css">
+    <meta charset="utf-8">
+    <title>RESUME</title>
+  </head>
+  <body>
+    <form>
+      <section>
+        <h2>Career Objective</h2>
+        <select id="Career">
+            <option>Fill your career details</option>
+
+        </select>
+    </section>
+<div class="parent">
+ <div class="child">
+   <section>
+        <h2>Personal details</h2>
+      <input type="text" name="Name" id="Name" placeholder="Enter your Name here"><br>
+      <input type="email" name="Email" id="Email" placeholder="Enter your Email here"><br>
+      <input type="number" name="Number" id="Phonenumber" placeholder="Enter your Phone number"><br>
+      <input type="text" name="Role" id="Role" placeholder="Enter your Designation">
+  </section>
+  </div>
+  <div class="child">
+    <section>
+      <h2>Graduation details</h2>
+      <input type="text" name="College1" id="College1" placeholder="Enter your College Name"><br>
+      <select name="Degree1" id="Degree1">
+        <option>B.Tech</option>
+        <option>B.Sc</option>
+        <option>M.Tech</option>
+        <option>M.Sc</option>
+        <option>B.Com</option>
+        <option>BA</option>
+    </select><br>
+    <select name="Branch1" id="Branch1">
+        <option>CSE</option>
+        <option>MECH</option>
+        <option>IT</option>
+        <option>ECE</option>
+        <option>CIVIL</option>
+        <option>MPCs</option>
+        <option>BioTech</option>
+      </select>
+      <input type="number" name="Sgpa" id="Sgpa" placeholder="Enter your SGPA">
+    </section>
+  </div>
+</div>
+<div class="parent">
+  <div class="child">
+    <section>
+      <h2>Inter Details</h2>
+        <input type="text" name="College2" id="College2" placeholder="Enter your college">
+        <h3>Select Your Branch</h3>
+        <select name="Branch2" id="Branch2">
+        <option>MPC</option>
+        <option>BiPC</option>
+        <option>CEC</option>
+        </select>
+        <input type="text" name="Percentage" id="Percentage" placeholder="Enter your Percentage">
+    </section>
+  </div>
+    <div class="child">
+      <section>
+            <h2>SSC</h2>
+            <input type="text" name="College3" id="College3" placeholder="Enter Your School Name">
+            <h3>Select your Board</h3>
+            <select class="Branch3" id="Branch3">
+            <option>SSC</option>
+            <option>CBSE</option>
+            </select>
+            <input type="text" name="Gpa" id="Gpa" placeholder="Enter your GPA">
+      </section>
+    </div>
+</div>
+
+<section>
+  <h2>Technical Skills</h2>
+  <input type="text" name="Skills" id="Skills" placeholder="Enter your skills">
+</section>
+</form>
+<button type="button" name="button" onclick="addData()">submit</button>
+</body>
+<script type="text/javascript" src="js/store.js">
+
+</script>
+</html>
